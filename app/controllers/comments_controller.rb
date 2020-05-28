@@ -13,7 +13,9 @@ class CommentsController < ApplicationController
 
     def create
         comment = @post.comments.create! comments_params
-        CommentsMailer.submitted(comment).deliver_later
+        # disbale mailer for now
+        # CommentsMailer.submitted(comment).deliver_later
+        CommentsChannel.broadcast(comment)
 
         redirect_to @post
     end
