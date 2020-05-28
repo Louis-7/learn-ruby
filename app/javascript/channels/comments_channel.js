@@ -10,6 +10,10 @@ consumer.subscriptions.create("CommentsChannel", {
   },
 
   received(data) {
-    $('#comments').append(data.comment);
+    // TODO: check how to use js libraries with Ruby on Rails
+    // $('#comments').append(data.comment);
+    let node = document.createElement('p');
+    node.innerHTML = data.comment;
+    document.getElementById('comments').appendChild(node);
   }
 });
