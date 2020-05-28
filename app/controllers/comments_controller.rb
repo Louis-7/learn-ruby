@@ -12,7 +12,9 @@ class CommentsController < ApplicationController
     end
 
     def create
-        @post.comments.create! comments_params
+        comment = @post.comments.create! comments_params
+        CommentsMailer.submitted(comment).deliver_later
+
         redirect_to @post
     end
 
