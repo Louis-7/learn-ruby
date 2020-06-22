@@ -1,8 +1,18 @@
 # README
 
-## Start Server
+## Installation
+```shell
+bundle install
+```
+then
+```shell
+yarn install
+```
 
-```rails server```
+## Start Server
+```shell
+rails server
+```
 
 ## Learn Ruby Online
 https://try.ruby-lang.org/
