@@ -11,7 +11,10 @@
             "program": "${workspaceRoot}/bin/rails",
             "args": [
                 "server"
-            ]
+            ],
+            "env": {
+                "PATH": "${env:HOME}/.nvm/versions/node/v10.21.0/bin:${env:HOME}/.rbenv/shims:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+              }
         }
     ]
 }
