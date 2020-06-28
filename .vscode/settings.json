@@ -1,0 +1,9 @@
+{
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.format": "rubocop",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.interpreter.commandPath": "~/.rbenv/shims/ruby",
+    "ruby.pathToBundler": "./bin/bundle",
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
+}
