@@ -49,7 +49,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gem "rubocop", "~> 0.86.0"
-
-gem "reek", "~> 1.3"
