@@ -1,9 +1,12 @@
 {
-    "ruby.codeCompletion": "rcodetools",
+    "solargraph.bundlerPath": "/Users/zliu011/.rbenv/shims/bundle",
+    "solargraph.formatting": true,
+    "solargraph.commandPath": "/Users/zliu011/.rbenv/shims/solargraph",
+    "ruby.interpreter.commandPath": "/Users/zliu011/.rbenv/shims/ruby",
+    "ruby.pathToBundler": "/Users/zliu011/.rbenv/shims/bundle",
+    "ruby.rctComplete.commandPath": "/Users/zliu011/.rbenv/shims/rct-complete",
     "ruby.format": "rubocop",
-    "ruby.intellisense": "rubyLocate",
-    "ruby.interpreter.commandPath": "~/.rbenv/shims/ruby",
-    "ruby.pathToBundler": "./bin/bundle",
-    "ruby.useBundler": true,
-    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+        "standard": true
+    }
 }
